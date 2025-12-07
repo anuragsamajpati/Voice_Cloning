@@ -69,7 +69,7 @@ You may adjust the PyTorch install command depending on your platform.
    cd "/Users/anuragsamajpati/Desktop/Voice Cloning"
    ```
 
-2. Start the Gradio dashboard:
+2. Start the Gradio dashboard locally:
 
    ```bash
    python3 akf_dashboard.py
@@ -81,7 +81,11 @@ You may adjust the PyTorch install command depending on your platform.
    Running on local URL:  http://127.0.0.1:7860
    ```
 
-4. Open the printed URL in your browser (e.g. `http://127.0.0.1:7860`).
+4. **Localhost URL**:
+
+   - You can open either of these in your browser (they are equivalent):
+     - `http://127.0.0.1:7860`
+     - `http://localhost:7860`
 
 5. In the **Microphone** tab:
    - Click the mic and speak for **2–6 seconds**.
